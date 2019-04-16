@@ -39,3 +39,7 @@ def forms_action_labels(request):
 
 def forms_selections(request):
     return render(request, 'forms_selections.html', {})
+
+
+def level_two_assessment(request):
+    return render(request, 'level_two_assessment.html', {})

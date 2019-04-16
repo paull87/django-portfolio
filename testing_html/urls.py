@@ -12,4 +12,5 @@ urlpatterns = [
     path("forms_basic/", views.forms_basic, name="forms_basic"),
     path("forms_actions/", views.forms_action_labels, name="forms_actions"),
     path("forms_selections/", views.forms_selections, name="forms_selections"),
+    path("assessment_two/", views.level_two_assessment, name="assessment_two"),
 ]
