@@ -27,3 +27,7 @@ def tables(request):
 
 def tables_quiz(request):
     return render(request, 'tables_quiz.html', {})
+
+
+def forms_basic(request):
+    return render(request, 'forms_basics.html', {})
