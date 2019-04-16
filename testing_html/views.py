@@ -19,3 +19,7 @@ def attributes(request):
 
 def level_one_assessment(request):
     return render(request, 'level_one_assessment.html', {})
+
+
+def tables(request):
+    return render(request, 'tables.html', {})

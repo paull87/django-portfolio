@@ -7,4 +7,5 @@ urlpatterns = [
     path("divspans/", views.div_spans, name="divs_spans"),
     path("attributes/", views.attributes, name="attributes"),
     path("assessment_one/", views.level_one_assessment, name="assessment_one"),
+    path("tables/", views.tables, name="tables"),
 ]
