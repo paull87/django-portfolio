@@ -5,4 +5,5 @@ urlpatterns = [
     path("", views.basics, name="basics"),
     path("lists/", views.lists, name="lists"),
     path("divspans/", views.div_spans, name="divs_spans"),
+    path("attributes/", views.attributes, name="attributes"),
 ]

@@ -11,3 +11,7 @@ def lists(request):
 
 def div_spans(request):
     return render(request, 'div_spans.html', {})
+
+
+def attributes(request):
+    return render(request, 'attributes.html', {})
