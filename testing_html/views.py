@@ -15,3 +15,7 @@ def div_spans(request):
 
 def attributes(request):
     return render(request, 'attributes.html', {})
+
+
+def level_one_assessment(request):
+    return render(request, 'level_one_assessment.html', {})
