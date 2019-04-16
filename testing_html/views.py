@@ -23,3 +23,7 @@ def level_one_assessment(request):
 
 def tables(request):
     return render(request, 'tables.html', {})
+
+
+def tables_quiz(request):
+    return render(request, 'tables_quiz.html', {})
