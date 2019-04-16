@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Selections</title>
+</head>
+<body>
+    <h1>Hotel Feedback Form</h1>
+
+
+    <form method="get">
+        <h2>Are you from inside the UK?</h2>
+        <label for="inuk">Inside: </label>
+        <input id="inuk" type="radio" name="loc" value="inside"><br>
+
+        <label for="outuk">Outside: </label>
+        <input id="outuk" type="radio" name="loc" value="outside">
+
+        <h2>How was your service?</h2>
+
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <h2>Any other feedback?</h2>
+        <textarea name="comments" rows="8" cols="80"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>

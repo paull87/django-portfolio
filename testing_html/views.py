@@ -31,3 +31,11 @@ def tables_quiz(request):
 
 def forms_basic(request):
     return render(request, 'forms_basics.html', {})
+
+
+def forms_action_labels(request):
+    return render(request, 'forms_actions_labels.html', {})
+
+
+def forms_selections(request):
+    return render(request, 'forms_selections.html', {})
