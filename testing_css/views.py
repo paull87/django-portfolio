@@ -7,3 +7,7 @@ def basics(request):
 
 def assessment_one(request):
     return render(request, 'assessment_one.html', {})
+
+
+def fonts(request):
+    return render(request, 'css_fonts.html', {})
