@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{% static 'css/capstone_welcome.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Oxygen|Questrial|Varela" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to the Landing Page</h1>
+
+    <h2>We're a start-up that does something</h2>
+
+    <p id="para_one">
+        Truffels stir-fry has to have a shredded, squeezed squid component.
+        Peregrinationes saepe ducunt ad superbus animalis. Pork butt can be rubed with aromatic lobster, also try
+        covering the stew with rum. Faith is a golden gold. Yes, there is zion, it listens with justice. All strange
+        cows invent each other, only private teachers have an extend. The state of zen is full of acceptance.
+        Yes, there is upstairs, it lures with energy. Going to the country of density doesn’t grasp uniqueness
+        anymore than forgetting creates enlightened relativity. Always cheerfully illuminate the boundless ego.
+        Everything we do is connected with life: control, history, milk, heaven.
+        Everything we do is connected with extend: sorrow, ascension, advice, faith.
+    </p>
+
+    <p id="para_two">
+        The life is a gravimetric transformator. Particles reproduce from x-ray visions like greatly exaggerated
+        astronauts. Calcarias unda in aetheres! Cur magister accelerare? Admirals wobble on anomaly at starfleet
+        headquarters! Moon at the colony that is when solid green people resist. Jolly, ye cloudy scallywag- set
+        sails for booty! Sorrow and om. The visitor receives life which is not prime. You have to wrestle, and gain
+        tantra by your listening.
+    </p>
+
+    <h2>Sign up for our upcoming launch!</h2>
+    <form action="{% url 'capstone_thankyou' %}">
+        <input id="firstname" type="text" placeholder="First Name" name="first_name"><br>
+        <input id="lastname" type="text" placeholder="Last Name" name="last_name"><br>
+        <input id="email" type="text" placeholder="Email" name="email"><br>
+        <input id="submit" type="submit" name="submit">
+    </form>
+
+</body>
+</html>

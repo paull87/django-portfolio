@@ -22,4 +22,5 @@ urlpatterns = [
     path("blog/", include("blog.urls")),
     path("test/", include("testing_html.urls")),
     path("test_css/", include("testing_css.urls")),
+    path("capstone/", include("capstone.urls")),
 ]

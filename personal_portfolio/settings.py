@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog',
     'testing_html',
     'testing_css',
+    'capstone',
 ]
 
 MIDDLEWARE = [
