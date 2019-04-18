@@ -11,3 +11,7 @@ def assessment_one(request):
 
 def fonts(request):
     return render(request, 'css_fonts.html', {})
+
+
+def box_model(request):
+    return render(request, 'box_model.html', {})
