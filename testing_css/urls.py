@@ -7,6 +7,7 @@ urlpatterns = [
     path("assessment_one/", views.assessment_one, name="assessment_one"),
     path("fonts/", views.fonts, name="fonts"),
     path("box_model/", views.box_model, name="box_model"),
+    path("spectrum/", views.spectrum, name="spectrum"),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

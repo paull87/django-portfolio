@@ -15,3 +15,7 @@ def fonts(request):
 
 def box_model(request):
     return render(request, 'box_model.html', {})
+
+
+def spectrum(request):
+    return render(request, 'spectrum_project.html', {})

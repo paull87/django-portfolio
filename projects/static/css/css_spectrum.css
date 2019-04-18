@@ -1,0 +1,33 @@
+h1{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+td{
+    border: 10px solid white;
+    width: 120px;
+    height: 240px;
+}
+
+#one{
+    background-color: #083D77;
+}
+
+#two{
+    background-color: #EBEBD3;
+}
+
+#three{
+    background-color: #F4D35E;
+}
+
+#four{
+    background-color: #EE964B;
+}
+
+#five{
+    background-color: #F95738;
+}
