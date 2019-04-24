@@ -7,3 +7,7 @@ def buttons(request):
 
 def forms(request):
     return render(request, 'forms.html', {})
+
+
+def navbar(request):
+    return render(request, 'nav_bar.html', {})
