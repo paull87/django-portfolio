@@ -7,3 +7,7 @@ def js_exercise3(request):
 
 def runner(request):
     return render(request, 'js_runner.html', {})
+
+
+def project_one(request):
+    return render(request, 'Part9_JS_Project.html', {})
