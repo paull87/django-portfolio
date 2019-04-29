@@ -24,4 +24,5 @@ urlpatterns = [
     path("test_css/", include("testing_css.urls")),
     path("capstone/", include("capstone.urls")),
     path("bootstrap/", include("bootstrap.urls")),
+    path("js/", include("javascript.urls")),
 ]

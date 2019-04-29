@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'testing_css',
     'capstone',
     'bootstrap',
+    'javascript',
 ]
 
 MIDDLEWARE = [
