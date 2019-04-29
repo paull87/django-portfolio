@@ -11,3 +11,15 @@ def forms(request):
 
 def navbar(request):
     return render(request, 'nav_bar.html', {})
+
+
+def project(request):
+    return render(request, 'Bootstrap_Project_Main.html', {})
+
+
+def project_copy(request):
+    return render(request, 'project_main.html', {})
+
+
+def project_signup(request):
+    return render(request, 'project_signup.html', {})
