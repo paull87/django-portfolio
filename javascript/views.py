@@ -11,3 +11,7 @@ def runner(request):
 
 def project_one(request):
     return render(request, 'Part9_JS_Project.html', {})
+
+
+def arrays(request):
+    return render(request, 'Part4_Array_Exercise.html', {})
